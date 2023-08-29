@@ -1,0 +1,21 @@
+.menu-all{
+  height: 100%;
+}
+
+.logo{
+  width: 151px;
+}
+
+.icon{
+  vertical-align: text-top;
+}
+
+.navbar-before-line{
+  &::before{
+    content: "";
+    position: absolute;
+    border-left: 4px solid #198754;
+    left: -32px;
+    height: 32px;
+  }
+}

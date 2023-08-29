@@ -1,0 +1,12 @@
+@import "../../node_modules/bootstrap/scss/functions";
+
+
+//客製化變數
+@import './utils/variables';
+
+@import "../../node_modules/bootstrap";
+
+
+@import './layout/navbar.scss';
+@import './pages/index.scss';
+
